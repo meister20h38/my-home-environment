@@ -1,0 +1,1 @@
+wakeonlan AA:BB:CC:DD:EE:01
