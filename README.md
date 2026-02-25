@@ -101,4 +101,8 @@ docker compose pull      # 最新イメージの取得
 docker compose up -d     # コンテナの再起動（ダウンタイムの最小化）
 docker image prune -f    # 不要な古いイメージの削除
 ```
+
+■ Data Pipeline & Integration
+- Centralized Storage: 収集した論文データや学習資料をNextcloudに集約。
+- AI Pipeline: AI PC上のRAGシステムが、Tailscale経由でNextcloudのWebDAV/共有フォルダにアクセスし、知識ベースを動的に更新する構成を構築中。
 このように、属人性を排除した「メンテナンスの仕組み化」を意識しています。
