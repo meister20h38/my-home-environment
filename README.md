@@ -48,14 +48,14 @@ graph TD
 - Ubuntu Server (Laptop) を出口ノードとして設定。安全性の低いネットワークを利用する際、すべての通信を自宅の暗号化されたトンネル経由（固定回線）でルーティングし、セキュリティを担保しています。
 
 ### 2. コンピュートリソースの最適配置
-- AI / Dev Machine: ローカルLLMの推論やRAG（Retrieval-Augmented Generation）の研究開発、Stable Diffusionを用いた画像生成に特化。RTX 3060 (12GB) の豊富なVRAMを活かした開発環境を構築しています。
-- Main Workstation: Ryzen 7 7800X3Dの高いシングルスレッド性能を活用し、競技プログラミング（AtCoder/Paiza）のコード作成や日常的な開発業務を担当。
-- Server (Sustainable Hardware): 旧世代のノートPCを再利用することで、消費電力を抑えつつ24時間稼働のファイルサーバー（Nextcloud）および踏み台サーバーとして運用しています。
+- **AI / Dev Machine**: ローカルLLMの推論やRAG（Retrieval-Augmented Generation）の研究開発、Stable Diffusionを用いた画像生成に特化。RTX 3060 (12GB) の豊富なVRAMを活かした開発環境を構築しています。
+- **Main Workstation**: Ryzen 7 7800X3Dの高いシングルスレッド性能を活用し、競技プログラミング（AtCoder/Paiza）のコード作成や日常的な開発業務を担当。
+- **Server (Sustainable Hardware)**: 旧世代のノートPCを再利用することで、消費電力を抑えつつ24時間稼働のファイルサーバー（Nextcloud）および踏み台サーバーとして運用しています。
 
 ### 3. 主な用途
-- 大学からのリモート開発: 大学の講義中や研究室から、自宅のGPUリソースをSSH経由で利用。
-- プライベートクラウド: Nextcloudによるデバイス間でのファイル同期およびバックアップ。
-- 安全性確保: 出先からのインターネット利用時におけるプライバシー保護。
+- **大学からのリモート開発**: 大学の講義中や研究室から、自宅のGPUリソースをSSH経由で利用。
+- **プライベートクラウド**: Nextcloudによるデバイス間でのファイル同期およびバックアップ。
+- **安全性確保**: 出先からのインターネット利用時におけるプライバシー保護。
 
 
 ## 🔋 Remote Power Management (Wake-on-LAN)
